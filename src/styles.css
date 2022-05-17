@@ -6,8 +6,10 @@
 body{
   margin: 0;
   background: linear-gradient(to right, #ade920 0%, #005bea 100%);
+ 
 }
 .calculater-grid{
+  padding-left: 35%;
   display: grid;
   margin-top: 2rem;
   grid-template-columns: repeat(4, 6rem);
@@ -25,7 +27,7 @@ body{
   background-color: #fff;
   color: #000;
 }
-.span-tow{
+.span-two{
   grid-column: span 2;
 }
 .output{
